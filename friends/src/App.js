@@ -12,10 +12,10 @@ function App() {
 			<div className="App">
 				<div className="links">
 					<Link to="/login">
-						<p className="link">Login</p>
+						<span className="link">Login</span>
 					</Link>
 					<Link to="/protected">
-						<p className="link">Friends List</p>
+						<span className="link">Friends List</span>
 					</Link>
 				</div>
 
