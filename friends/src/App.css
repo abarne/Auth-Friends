@@ -65,6 +65,17 @@ button {
 	text-shadow: 2px 2px #000000;
 }
 
+.login {
+	width: 50vw;
+	margin: 0 auto;
+
+	padding: 100px 0;
+	margin-top: 200px;
+	background-color: #aa1a07;
+	color: blanchedalmond;
+	font-size: 1.6rem;
+}
+
 /* .color-primary-0 { color: #E25A48 }	
 .color-primary-1 { color: #FFEAE7 }
 .color-primary-2 { color: #FF8A7B }
