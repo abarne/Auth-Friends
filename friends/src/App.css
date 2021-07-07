@@ -1,0 +1,83 @@
+.App {
+	text-align: center;
+	background: #e25a48;
+	min-height: 100vh;
+}
+
+.friends {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.friend {
+	/* background: #ffeae7; */
+	background: #aa1a07;
+	color: blanchedalmond;
+	width: 500px;
+	height: 200px;
+	margin-top: 100px;
+}
+
+.links {
+	background: #38110c;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.link {
+	color: blanchedalmond;
+	text-decoration: none;
+	font-size: 1.8rem;
+	margin: 30px 400px;
+}
+
+.title {
+	color: blanchedalmond;
+	font-size: 2.5rem;
+	text-decoration: underline;
+}
+
+.newFriendForm {
+	display: flex;
+	flex-direction: column;
+	margin-top: 70px;
+}
+
+input {
+	height: 30px;
+	margin: 20px;
+}
+
+button {
+	background: #aa1a07;
+	background: linear-gradient(#38110c, #aa1a07 50%, #38110c);
+	border: 3px solid #ff8a7b;
+	border-radius: 12px;
+	padding: 8px 20px;
+	color: blanchedalmond;
+	display: inline-block;
+	font: normal bold 25px/1 "Calibri", sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+}
+
+.login {
+	width: 50vw;
+	margin: 0 auto;
+
+	padding: 100px 0;
+	margin-top: 200px;
+	background-color: #aa1a07;
+	color: blanchedalmond;
+	font-size: 1.6rem;
+}
+
+/* .color-primary-0 { color: #E25A48 }	
+.color-primary-1 { color: #FFEAE7 }
+.color-primary-2 { color: #FF8A7B }
+.color-primary-3 { color: #AA1A07 }
+.color-primary-4 { color: #38110C } */
